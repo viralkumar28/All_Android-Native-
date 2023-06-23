@@ -6,4 +6,9 @@
     <string name="tic_tac_toe">Tic Tac Toe</string>
     <string name="next">Next</string>
     <string name="icon">Icon</string>
+    <string name="enter_a_number">Enter a number</string>
+    <string name="plus">+</string>
+    <string name="subtract">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
 </resources>
