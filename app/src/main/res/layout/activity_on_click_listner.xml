@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".onClickListner">
+
+    <LinearLayout
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+            <Button
+            android:layout_width="205dp"
+            android:layout_height="240dp"
+            android:text="First"
+            android:background="@color/orange"/>
+        <Button
+            android:layout_width="205dp"
+            android:layout_height="240dp"
+            android:text="Way"
+            android:background="@color/light_blue"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="205dp"
+        android:layout_height="240dp"
+        android:text="Second"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        />
+        <TextView
+            android:layout_width="205dp"
+            android:layout_height="240dp"
+            android:text="Way"
+            android:background="@color/teal_700"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="205dp"
+            android:layout_height="240dp"
+            android:text="Third"
+            android:background="@color/pink"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="205dp"
+            android:layout_height="240dp"
+            android:gravity="center"
+            android:text="Way"
+            android:background="@color/dark_blue"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
