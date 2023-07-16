@@ -13,6 +13,9 @@
         android:theme="@style/Theme.All_Android"
         tools:targetApi="31">
         <activity
+            android:name=".LinearLayouts"
+            android:exported="false" />
+        <activity
             android:name=".Toasty"
             android:exported="true">
             <intent-filter>
@@ -23,12 +26,10 @@
         </activity>
         <activity
             android:name=".loginscreenbasic"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".onClickListners"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".SplashScreen"
             android:exported="true" />
