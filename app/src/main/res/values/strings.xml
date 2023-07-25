@@ -23,4 +23,7 @@
     <string name="by_default">By Default</string>
     <string name="simple_garvity_toast">Simple Garvity Toast</string>
     <string name="nested_toast">Nested toast</string>
+    <string name="one">ONE</string>
+    <string name="two">TWO</string>
+    <string name="three">THREE</string>
 </resources>

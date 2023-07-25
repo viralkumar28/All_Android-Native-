@@ -1,16 +1,14 @@
-package com.example.all_android.Layout;
+package com.example.all_android;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.all_android.R;
-
-public class LinearLayouts extends AppCompatActivity {
+public class ConstrainLayouts extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_linear_layouts);
+        setContentView(R.layout.activity_constrain_layouts);
     }
 }
