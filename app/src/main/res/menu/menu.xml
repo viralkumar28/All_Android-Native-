@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="New Group"
+        android:id="@+id/newgrp"/>
+    <item android:title="Broadcast"
+        android:id="@+id/broadcast"/>
+    <item android:title="Setting"
+        android:id="@+id/setting"/>
+    <item android:title="Web WhatsApp"
+        android:id="@+id/webwhatsapp"/>
+</menu>
