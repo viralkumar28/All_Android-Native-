@@ -13,8 +13,14 @@
         android:theme="@style/Theme.All_Android"
         tools:targetApi="31">
         <activity
-            android:name=".CustomToolBar"
-            android:exported="true" >
+            android:name=".ImpliciteIntents"
+            android:exported="false" />
+        <activity
+            android:name=".IntentLayout_two"
+            android:exported="false" />
+        <activity
+            android:name=".Intents"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,10 +28,11 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".CustomToolBar"
+            android:exported="true"></activity>
+        <activity
             android:name=".ConstrainLayouts"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Toasty"
             android:exported="true" />
