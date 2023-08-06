@@ -13,23 +13,34 @@
         android:theme="@style/Theme.All_Android"
         tools:targetApi="31">
         <activity
-            android:name=".ImpliciteIntents"
+            android:name=".Services"
             android:exported="false" />
         <activity
-            android:name=".IntentLayout_two"
-            android:exported="false" />
-        <activity
-            android:name=".Intents"
+            android:name=".BroadCastReveiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
+                android:name=".ImpliciteIntents"
+                android:exported="true"/>
+        <activity
+            android:name=".IntentLayout_two"
+            android:exported="false" />
+        <activity
+            android:name=".Intents"
+            android:exported="true" />
+        <activity
             android:name=".CustomToolBar"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".ConstrainLayouts"
             android:exported="true" />
@@ -48,6 +59,10 @@
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
