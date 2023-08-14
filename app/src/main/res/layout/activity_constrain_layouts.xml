@@ -43,14 +43,14 @@
         app:layout_constraintGuide_end="20dp" />
 
     <Button
-        android:id="@+id/button7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="152dp"
-        android:text="Button"
-        android:visibility="invisible"
-        app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        tools:layout_editor_absoluteY="467dp" />
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="152dp"
+            android:text="Button"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            tools:layout_editor_absoluteY="467dp" tools:ignore="MissingConstraints"/>
 
     <Button
         android:id="@+id/button8"

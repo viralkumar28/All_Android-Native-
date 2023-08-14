@@ -17,14 +17,11 @@ public class Intents extends AppCompatActivity {
         setContentView(R.layout.activity_intents);
 
         tv = findViewById(R.id.textViewIntent);
-        tv.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String data = tv.getText().toString();
-                Intent intent = new Intent(Intents.this, IntentLayout_two.class);
-                intent.putExtra("dataname", data);
-                startActivity(intent);
-            }
+        tv.setOnClickListener(view -> {
+            String data = tv.getText().toString();
+            Intent intent = new Intent(Intents.this, IntentLayout_two.class);
+            intent.putExtra("dataname", data);
+            startActivity(intent);
         });
     }
 }
