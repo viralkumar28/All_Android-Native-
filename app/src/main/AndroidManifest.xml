@@ -14,7 +14,7 @@
             android:theme="@style/Theme.All_Android"
             tools:targetApi="31">
         <activity
-                android:name=".SpinnerExample"
+                android:name=".RecyclerViewExample"
                 android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -26,9 +26,17 @@
             </intent-filter>
         </activity>
         <activity
-                android:name=".ListViewExample"
+                android:name=".CardViewEx"
                 android:exported="true">
 
+        </activity>
+        <activity
+                android:name=".SpinnerExample"
+                android:exported="true">
+        </activity>
+        <activity
+                android:name=".ListViewExample"
+                android:exported="true">
         </activity>
         <activity
                 android:name=".BMICalc"
