@@ -18,16 +18,13 @@ public class ImpliciteIntents extends AppCompatActivity {
 
         share = findViewById(R.id.share);
         quote = findViewById(R.id.textViewQuote);
-        share.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String sharetxt = quote.getText().toString();
-                Intent intent = new Intent();
-                intent.setAction(Intent.ACTION_SEND);
-                intent.setType("text/plain");
-                intent.putExtra(Intent.EXTRA_TEXT, sharetxt);
-                startActivity(intent);
-            }
+        share.setOnClickListener(view -> {
+            String sharetxt = quote.getText().toString();
+            Intent intent = new Intent();
+            intent.setAction(Intent.ACTION_SEND);
+            intent.setType("text/plain");
+            intent.putExtra(Intent.EXTRA_TEXT, sharetxt);
+            startActivity(intent);
         });
     }
 }
